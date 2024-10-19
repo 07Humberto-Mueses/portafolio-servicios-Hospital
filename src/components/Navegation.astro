@@ -1,87 +1,10 @@
 ---
-import Section from "./Section.astro";
----
+const links = [
+  { name: 'Home', href: '/' },
+  { name: 'Cardiologia', href: '/Cardiologia' },
+  { name: 'Ortopedia', href: '/Ortopedia' },
+  { name: 'Pediatria', href: '/Pediatria' },
+  { name: 'Felicitaciones', href: '/Testimonio' },
 
-<Section>
-  <div
-    class="z-50 w-full h-16 max-w-lg mx-auto -translate-x bg-white border border-gray-200 rounded-full top-4 left-1/2 dark:bg-gray-700 dark:border-gray-600"
-  >
-    <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
-      <button
-        data-tooltip-target="tooltip-home"
-        type="button"
-        class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-50 dark:hover:bg-gray-800 group"
-      >
-        <img src="/src/icons/Home.svg" alt="Inicio" />
-      </button>
-      <div
-        id="tooltip-home"
-        role="tooltip"
-        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-      >
-        Inicio
-        <div class="tooltip-arrow" data-popper-arrow></div>
-      </div>
-      <button
-        data-tooltip-target="tooltip-cardio"
-        type="button"
-        class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-      >
-        <img src="/src/icons/Heart.svg" alt="Cardiologia" />
-      </button>
-      <div
-        id="tooltip-cardio"
-        role="tooltip"
-        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-      >
-        Cardiologia
-        <div class="tooltip-arrow" data-popper-arrow></div>
-      </div>
-      <button
-        data-tooltip-target="tooltip-ortopedia"
-        type="button"
-        class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-      >
-        <img src="/src/icons/Bones.svg" alt="Ortopedia" />
-      </button>
-      <div
-        id="tooltip-ortopedia"
-        role="tooltip"
-        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-      >
-        Ortopedia
-        <div class="tooltip-arrow" data-popper-arrow></div>
-      </div>
-      <button
-        data-tooltip-target="tooltip-pediatria"
-        type="button"
-        class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-      >
-        <img src="/src/icons/Pediatrics.svg" alt="Pediatría" />
-      </button>
-      <div
-        id="tooltip-pediatria"
-        role="tooltip"
-        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-      >
-        Pediatría
-        <div class="tooltip-arrow" data-popper-arrow></div>
-      </div>
-      <button
-        data-tooltip-target="tooltip-felicita"
-        type="button"
-        class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-50 dark:hover:bg-gray-800 group"
-      >
-        <img src="/src/icons/Congrat.svg" alt="Congrats" />
-      </button>
-      <div
-        id="tooltip-felicita"
-        role="tooltip"
-        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-      >
-        Felicitaciones
-        <div class="tooltip-arrow" data-popper-arrow></div>
-      </div>
-    </div>
-  </div>
-</Section>
+];
+---
