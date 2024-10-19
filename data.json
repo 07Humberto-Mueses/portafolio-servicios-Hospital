@@ -1,0 +1,131 @@
+{
+  "hospital": {
+    "nombre": "Hospital Central Comunitario",
+    "lema": "Tu salud, nuestra prioridad",
+    "mision": "Brindar atención médica integral y de calidad a todos nuestros pacientes, promoviendo la salud y el bienestar de la comunidad.",
+    "vision": "Ser el hospital de referencia en la región, reconocido por la excelencia en sus servicios y la innovación en sus tratamientos.",
+    "email": "comunitario@gmail.com",
+    "phone": "602 7332456",
+    "address": "Av. Los Fundadores",
+    "city": "San Juan de Pasto",
+    "region": " Colombia",
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "Hospital-Central",
+        "url": "https://insstagram.com"
+      },
+      {
+        "network": "Facebook",
+        "username": "Hospital-Central",
+        "url": "https://www.facebook.com"
+      }
+    ]
+  },
+  "cardiologia": [
+    {
+      "nombre": "Dr. Juan Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": [
+        "Electrocardiogramas",
+        "Ecocardiogramas",
+        "Holter",
+        "Cateterismo cardíaco"
+      ]
+    },
+    {
+      "nombre": "Dr. Andres Rodríguez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Tratamiento de arritmias",
+        "Insuficiencia cardíaca",
+        "Prevención cardiovascular"
+      ]
+    },
+    {
+      "nombre": "Dr. Carlos Gómez",
+      "universidad": "Universidad de Stanford",
+      "servicios": [
+        "Valvulopatías",
+        "Cardiopatías congénitas",
+        "Rehabilitación cardíaca"
+      ]
+    }
+  ],
+  "ortopedia": [
+    {
+      "nombre": "Dr. Juan Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": [
+        "Cirugía de rodilla",
+        "Tratamiento de fracturas",
+        "Rehabilitación física"
+      ]
+    },
+    {
+      "nombre": "Dra. María Rodríguez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Cirugía de hombro",
+        "Artroscopia",
+        "Tratamiento de lesiones deportivas"
+      ]
+    },
+    {
+      "nombre": "Dr. Carlos Gómez",
+      "universidad": "Universidad de Stanford",
+      "servicios": [
+        "Cirugía de columna",
+        "Tratamiento de osteoporosis",
+        "Prótesis articulares"
+      ]
+    }
+  ],
+  "pediatria": [
+    {
+      "nombre": "Dra. Ana García",
+      "universidad": "Universidad de Chile",
+      "servicios": [
+        "Vacunación",
+        "Control del crecimiento y desarrollo",
+        "Tratamiento de enfermedades infantiles"
+      ]
+    },
+    {
+      "nombre": "Dr. Pedro López",
+      "universidad": "Universidad de Buenos Aires",
+      "servicios": [
+        "Neonatología",
+        "Alergias infantiles",
+        "Nutrición infantil"
+      ]
+    },
+    {
+      "nombre": "Dra. María Sánchez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Pediatría del adolescente",
+        "Trastornos del desarrollo",
+        "Medicina del sueño infantil"
+      ]
+    }
+  ],
+  "testimonios": [
+    {
+      "paciente": "Juan Gómez",
+      "testimonio": "El Dr. Pérez me ayudó a recuperar mi movilidad después de la lesión. Estoy muy agradecido por su atención."
+    },
+    {
+      "paciente": "María Rodríguez",
+      "testimonio": "Gracias al tratamiento del Dr. López, mi calidad de vida ha mejorado significativamente."
+    },
+    {
+      "paciente": "Carlos Sánchez",
+      "testimonio": "El personal de esta clínica es muy amable y profesional. Recomiendo ampliamente sus servicios."
+    },
+    {
+      "paciente": "Ana Martínez",
+      "testimonio": "Estoy muy satisfecha con los resultados de mi cirugía. El Dr. García es un excelente cirujano."
+    }
+  ]
+}
