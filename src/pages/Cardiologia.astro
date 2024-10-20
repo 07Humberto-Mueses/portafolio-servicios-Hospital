@@ -2,10 +2,13 @@
 import Section from "../components/Section.astro";
 import { cardiologia } from "@data";
 import Layout from "@/layouts/Layout.astro";
+import NavBar from "./NavBar.astro";
+import Footer from "./Footer.astro";
 ---
 
 <Layout title="Cardiologia">
-  <Section title="Cardiologia">
+  <Section>
+    <NavBar />
     <div id="default-carousel" class="relative" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-56 md:h-96 overflow-hidden rounded-lg">
@@ -73,5 +76,6 @@ import Layout from "@/layouts/Layout.astro";
         </span>
       </button>
     </div>
+    <Footer />
   </Section>
 </Layout>

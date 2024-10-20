@@ -1,12 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Navegation from "../components/Navegation.astro";
+import Home from "./Home.astro";
+import NavBar from "./NavBar.astro";
+import Footer from "./Footer.astro";
 ---
 
 <Layout title="Portafolio Hospital">
+  <NavBar />
   <main>
-    <Navegation />
+    <Home />
   </main>
+  <Footer />
 </Layout>
 
 <style>
