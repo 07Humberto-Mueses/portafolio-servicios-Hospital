@@ -1,12 +1,12 @@
 ---
 import Section from "../components/Section.astro";
-import { cardiologia } from "@data";
+import { pediatria } from "@data";
 import Layout from "@/layouts/Layout.astro";
 import NavBar from "./NavBar.astro";
 import Footer from "./Footer.astro";
 ---
 
-<Layout title="Cardiologia">
+<Layout title="Pediatria">
   <Section>
     <slot />
     <NavBar />
@@ -14,7 +14,7 @@ import Footer from "./Footer.astro";
       <div class="relative h-56 md:h-96 overflow-hidden rounded-lg">
         <ul class="flex justify-center items-center h-full space-x-4">
           {
-            cardiologia.map(({ nombre, universidad, servicios, fotos }) => (
+            pediatria.map(({ nombre, universidad, servicios, fotos }) => (
               <li
                 class="m-auto justify-center items-center max-w-lg w-64 h-64 p-2 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transform transition-all duration-500 ease-in-out hover:scale-105"
                 data-carousel-item

@@ -17,9 +17,9 @@
       "servicios": [
         "Electrocardiogramas",
         "Ecocardiogramas",
-        "Holter",
-        "Cateterismo cardíaco"
-      ]
+        "Holter"
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Andres Rodríguez",
@@ -28,7 +28,8 @@
         "Tratamiento de arritmias",
         "Insuficiencia cardíaca",
         "Prevención cardiovascular"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -37,7 +38,8 @@
         "Valvulopatías",
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Juan Pérez",
@@ -46,7 +48,8 @@
         "Cirugía de rodilla",
         "Tratamiento de fracturas",
         "Rehabilitación física"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -55,7 +58,8 @@
         "Cirugía de hombro",
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -64,7 +68,8 @@
         "Cirugía de columna",
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     }
   ],
   "ortopedia": [
@@ -75,7 +80,8 @@
         "Cirugía de rodilla",
         "Tratamiento de fracturas",
         "Rehabilitación física"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -84,7 +90,8 @@
         "Cirugía de hombro",
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -93,7 +100,38 @@
         "Cirugía de columna",
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dra. Ana García",
+      "universidad": "Universidad de Chile",
+      "servicios": [
+        "Vacunación",
+        "Control del crecimiento y desarrollo",
+        "Tratamiento de enfermedades infantiles"
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dr. Pedro López",
+      "universidad": "Universidad de Buenos Aires",
+      "servicios": [
+        "Neonatología",
+        "Alergias infantiles",
+        "Nutrición infantil"
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dra. María Sánchez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Pediatría del adolescente",
+        "Trastornos del desarrollo",
+        "Medicina del sueño infantil"
+      ],
+      "fotos": "assets/avatar.jpg"
     }
   ],
   "pediatria": [
@@ -104,7 +142,8 @@
         "Vacunación",
         "Control del crecimiento y desarrollo",
         "Tratamiento de enfermedades infantiles"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dr. Pedro López",
@@ -113,7 +152,8 @@
         "Neonatología",
         "Alergias infantiles",
         "Nutrición infantil"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
     },
     {
       "nombre": "Dra. María Sánchez",
@@ -122,7 +162,38 @@
         "Pediatría del adolescente",
         "Trastornos del desarrollo",
         "Medicina del sueño infantil"
-      ]
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dr. Juan Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": [
+        "Electrocardiogramas",
+        "Ecocardiogramas",
+        "Holter"
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dr. Andres Rodríguez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Tratamiento de arritmias",
+        "Insuficiencia cardíaca",
+        "Prevención cardiovascular"
+      ],
+      "fotos": "assets/avatar.jpg"
+    },
+    {
+      "nombre": "Dr. Carlos Gómez",
+      "universidad": "Universidad de Stanford",
+      "servicios": [
+        "Valvulopatías",
+        "Cardiopatías congénitas",
+        "Rehabilitación cardíaca"
+      ],
+      "fotos": "assets/avatar.jpg"
     }
   ],
   "testimonios": [
