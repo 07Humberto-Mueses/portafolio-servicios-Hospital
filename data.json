@@ -15,7 +15,7 @@
       "nombre": "Dr. Juan Pérez",
       "universidad": "Universidad Nacional Autónoma de México",
       "servicios": ["Electrocardiogramas", "Ecocardiogramas", "Holter"],
-      "src": "/public/assets/images/avatar1.jpg",
+      "src": "/public/assets/images/cardio/avatar1.jpg",
       "alt": "Avatar 1"
     },
     {
@@ -26,7 +26,8 @@
         "Insuficiencia cardíaca",
         "Prevención cardiovascular"
       ],
-      "fotos": "public/assets/images/cardio/avatar2.jpg"
+      "src": "/public/assets/images/cardio/avatar2.jpg",
+      "alt": "Avatar 2"
     },
     {
       "nombre": "Dr. Margarita Gómez",
@@ -36,7 +37,8 @@
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
       ],
-      "fotos": "public/assets/images/cardio/avatar3.jpg"
+      "src": "/public/assets/images/cardio/avatar3.jpg",
+      "alt": "Avatar 3"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -46,7 +48,8 @@
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
       ],
-      "fotos": "public/assets/images/cardio/avatar4.jpg"
+      "src": "/public/assets/images/cardio/avatar4.jpg",
+      "alt": "Avatar 4"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -56,13 +59,15 @@
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
       ],
-      "fotos": "public/assets/images/cardio/avatar5.jpg"
+      "src": "/public/assets/images/cardio/avatar5.jpg",
+      "alt": "Avatar 5"
     },
     {
       "nombre": "Dr. Daniela Pérez",
       "universidad": "Universidad Nacional Autónoma de México",
       "servicios": ["Electrocardiogramas", "Ecocardiogramas", "Holter"],
-      "fotos": "public/assets/images/cardio/avatar6.jpg"
+      "src": "/public/assets/images/avatar6.jpg",
+      "alt": "Avatar 6"
     }
   ],
   "ortopedia": [
@@ -74,7 +79,8 @@
         "Tratamiento de fracturas",
         "Rehabilitación física"
       ],
-      "fotos": "public/assets/images/ortop/avatar1.jpg"
+      "src": "/public/assets/images/ortop/avatar1.jpg",
+      "alt": "Avatar 1"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -84,7 +90,8 @@
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
       ],
-      "fotos": "public/assets/images/ortop/avatar2.jpg"
+      "src": "/public/assets/images/ortop/avatar2.jpg",
+      "alt": "Avatar 2"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -94,7 +101,8 @@
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
       ],
-      "fotos": "public/assets/images/ortop/avatar3.jpg"
+      "src": "/public/assets/images/ortop/avatar3.jpg",
+      "alt": "Avatar 3"
     },
     {
       "nombre": "Dra. Ana García",
@@ -104,7 +112,8 @@
         "Control del crecimiento y desarrollo",
         "Tratamiento de enfermedades infantiles"
       ],
-      "fotos": "public/assets/images/ortop/avatar4.jpg"
+      "src": "/public/assets/images/ortop/avatar4.jpg",
+      "alt": "Avatar 4"
     },
     {
       "nombre": "Dr. Pedro López",
@@ -114,7 +123,8 @@
         "Alergias infantiles",
         "Nutrición infantil"
       ],
-      "fotos": "public/assets/images/ortop/avatar5.jpg"
+      "src": "/public/assets/images/ortop/avatar5.jpg",
+      "alt": "Avatar 5"
     },
     {
       "nombre": "Dra. María Sánchez",
@@ -124,7 +134,8 @@
         "Trastornos del desarrollo",
         "Medicina del sueño infantil"
       ],
-      "fotos": "public/assets/images/ortop/avatar6.jpg"
+      "src": "/public/assets/images/ortop/avatar6.jpg",
+      "alt": "Avatar 6"
     }
   ],
   "pediatria": [
@@ -136,7 +147,8 @@
         "Control del crecimiento y desarrollo",
         "Tratamiento de enfermedades infantiles"
       ],
-      "fotos": "public/assets/images/pedia/avatar1.jpg"
+      "src": "/public/assets/images/pedia/avatar1.jpg",
+      "alt": "Avatar 1"
     },
     {
       "nombre": "Dr. Pedro López",
@@ -146,7 +158,8 @@
         "Alergias infantiles",
         "Nutrición infantil"
       ],
-      "fotos": "public/assets/images/pedia/avatar2.jpg"
+      "src": "/public/assets/images/pedia/avatar2.jpg",
+      "alt": "Avatar 2"
     },
     {
       "nombre": "Dra. María Sánchez",
@@ -156,7 +169,8 @@
         "Trastornos del desarrollo",
         "Medicina del sueño infantil"
       ],
-      "fotos": "public/assets/images/pedia/avatar3.jpg"
+      "src": "/public/assets/images/pedia/avatar3.jpg",
+      "alt": "Avatar 3"
     },
     {
       "nombre": "Dr. Andres Rodríguez",
@@ -166,7 +180,8 @@
         "Insuficiencia cardíaca",
         "Prevención cardiovascular"
       ],
-      "fotos": "public/assets/images/pedia/avatar4.jpg"
+      "src": "/public/assets/images/pedia/avatar4.jpg",
+      "alt": "Avatar 4"
     },
     {
       "nombre": "Dr. Pedro Gómez",
@@ -176,7 +191,8 @@
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
       ],
-      "fotos": "public/assets/images/pedia/avatar5.jpg"
+      "src": "/public/assets/images/pedia/avatar5.jpg",
+      "alt": "Avatar 5"
     },
     {
       "nombre": "Dr. Juan Pérez",
@@ -186,7 +202,8 @@
         "Tratamiento de fracturas",
         "Rehabilitación física"
       ],
-      "fotos": "public/assets/images/pedia/avatar6.jpg"
+      "src": "/public/assets/images/pedia/avatar6.jpg",
+      "alt": "Avatar 6"
     }
   ],
   "testimonios": [

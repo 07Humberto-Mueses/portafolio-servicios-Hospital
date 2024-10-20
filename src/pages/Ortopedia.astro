@@ -5,6 +5,19 @@ import Layout from "@/layouts/Layout.astro";
 import NavBar from "./NavBar.astro";
 import Footer from "./Footer.astro";
 import SliderControls from "./SliderControls.astro";
+
+let fotos = [];
+
+try {
+  const response = await fetch("/data.json");
+  if (response.ok) {
+    fotos = await response.json();
+  } else {
+    console.error("Error al cargar el archivo JSON.");
+  }
+} catch (error) {
+  console.error("Error en el fetch:", error);
+}
 ---
 
 <Layout title="Ortopedia">
@@ -15,14 +28,14 @@ import SliderControls from "./SliderControls.astro";
       <div class="relative h-56 md:h-96 overflow-hidden rounded-lg">
         <ul class="flex justify-center items-center h-full space-x-4">
           {
-            ortopedia.map(({ nombre, universidad, servicios, fotos }) => (
+            ortopedia.map(({ nombre, universidad, servicios, src, alt }) => (
               <li
                 class="m-auto justify-center items-center max-w-lg w-64 h-64 p-2 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transform transition-all duration-500 ease-in-out hover:scale-105"
                 data-carousel-item
               >
                 <img
-                  src={fotos}
-                  alt="Imagen de perfil"
+                  src={src}
+                  alt={alt}
                   class="m-auto w-28 object-cover rounded-lg"
                 />
                 <span class="block text-xs font-bold text-center text-gray-900 dark:text-white">
