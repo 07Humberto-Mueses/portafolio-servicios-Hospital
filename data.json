@@ -14,42 +14,28 @@
     {
       "nombre": "Dr. Juan Pérez",
       "universidad": "Universidad Nacional Autónoma de México",
-      "servicios": [
-        "Electrocardiogramas",
-        "Ecocardiogramas",
-        "Holter"
-      ],
-      "fotos": "assets/avatar.jpg"
+      "servicios": ["Electrocardiogramas", "Ecocardiogramas", "Holter"],
+      "fotos": "assets/cardio/avatar1.jpg"
     },
     {
-      "nombre": "Dr. Andres Rodríguez",
+      "nombre": "Dr. Luisa Rodríguez",
       "universidad": "Universidad de Harvard",
       "servicios": [
         "Tratamiento de arritmias",
         "Insuficiencia cardíaca",
         "Prevención cardiovascular"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/cardio/avatar2.jpg"
     },
     {
-      "nombre": "Dr. Carlos Gómez",
+      "nombre": "Dr. Margarita Gómez",
       "universidad": "Universidad de Stanford",
       "servicios": [
         "Valvulopatías",
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
       ],
-      "fotos": "assets/avatar.jpg"
-    },
-    {
-      "nombre": "Dr. Juan Pérez",
-      "universidad": "Universidad Nacional Autónoma de México",
-      "servicios": [
-        "Cirugía de rodilla",
-        "Tratamiento de fracturas",
-        "Rehabilitación física"
-      ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/cardio/avatar3.jpg"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -59,7 +45,7 @@
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/cardio/avatar4.jpg"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -69,7 +55,13 @@
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/cardio/avatar5.jpg"
+    },
+    {
+      "nombre": "Dr. Daniela Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": ["Electrocardiogramas", "Ecocardiogramas", "Holter"],
+      "fotos": "assets/cardio/avatar6.jpg"
     }
   ],
   "ortopedia": [
@@ -81,7 +73,7 @@
         "Tratamiento de fracturas",
         "Rehabilitación física"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar1.jpg"
     },
     {
       "nombre": "Dra. María Rodríguez",
@@ -91,7 +83,7 @@
         "Artroscopia",
         "Tratamiento de lesiones deportivas"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar2.jpg"
     },
     {
       "nombre": "Dr. Carlos Gómez",
@@ -101,7 +93,7 @@
         "Tratamiento de osteoporosis",
         "Prótesis articulares"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar3.jpg"
     },
     {
       "nombre": "Dra. Ana García",
@@ -111,7 +103,7 @@
         "Control del crecimiento y desarrollo",
         "Tratamiento de enfermedades infantiles"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar4.jpg"
     },
     {
       "nombre": "Dr. Pedro López",
@@ -121,7 +113,7 @@
         "Alergias infantiles",
         "Nutrición infantil"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar5.jpg"
     },
     {
       "nombre": "Dra. María Sánchez",
@@ -131,7 +123,7 @@
         "Trastornos del desarrollo",
         "Medicina del sueño infantil"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/ortop/avatar6.jpg"
     }
   ],
   "pediatria": [
@@ -143,7 +135,7 @@
         "Control del crecimiento y desarrollo",
         "Tratamiento de enfermedades infantiles"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/pedia/avatar1.jpg"
     },
     {
       "nombre": "Dr. Pedro López",
@@ -153,7 +145,7 @@
         "Alergias infantiles",
         "Nutrición infantil"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/pedia/avatar2.jpg"
     },
     {
       "nombre": "Dra. María Sánchez",
@@ -163,17 +155,7 @@
         "Trastornos del desarrollo",
         "Medicina del sueño infantil"
       ],
-      "fotos": "assets/avatar.jpg"
-    },
-    {
-      "nombre": "Dr. Juan Pérez",
-      "universidad": "Universidad Nacional Autónoma de México",
-      "servicios": [
-        "Electrocardiogramas",
-        "Ecocardiogramas",
-        "Holter"
-      ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/pedia/avatar3.jpg"
     },
     {
       "nombre": "Dr. Andres Rodríguez",
@@ -183,17 +165,27 @@
         "Insuficiencia cardíaca",
         "Prevención cardiovascular"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/pedia/avatar4.jpg"
     },
     {
-      "nombre": "Dr. Carlos Gómez",
+      "nombre": "Dr. Pedro Gómez",
       "universidad": "Universidad de Stanford",
       "servicios": [
         "Valvulopatías",
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
       ],
-      "fotos": "assets/avatar.jpg"
+      "fotos": "assets/pedia/avatar5.jpg"
+    },
+    {
+      "nombre": "Dr. Juan Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": [
+        "Cirugía de rodilla",
+        "Tratamiento de fracturas",
+        "Rehabilitación física"
+      ],
+      "fotos": "assets/pedia/avatar6.jpg"
     }
   ],
   "testimonios": [
