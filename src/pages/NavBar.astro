@@ -1,5 +1,7 @@
 ---
 import Section from "../components/Section.astro";
+import { Image } from "astro:assets";
+import img from "../assets/Bones.svg";
 ---
 
 <Section>
@@ -42,7 +44,7 @@ import Section from "../components/Section.astro";
         data-tooltip-target="tooltip-ortopedia"
         class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <img src="public/assets/icons/Bones.svg" alt="Ortopedia" />
+        <Image src={img} alt="Ortopedia" />
         <div
           id="tooltip-ortopedia"
           role="tooltip"

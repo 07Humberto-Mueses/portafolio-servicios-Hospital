@@ -1,6 +1,7 @@
 ---
 import Section from "../components/Section.astro";
 import { hospital } from "@data";
+import img from "../../assets/icons/HospitalLogo.svg";
 const { nombre, phone, email, address, city, region } = hospital;
 ---
 
@@ -10,7 +11,7 @@ const { nombre, phone, email, address, city, region } = hospital;
       <div class="md:flex md:justify-between">
         <div class="m-4 flex md:mb-0">
           <img
-            src="/public/assets/icons/HospitalLogo.svg"
+            src=`${img}`
             class="flex self-center w-52 h-8 me-3"
             alt="Clinica"
           />
@@ -35,7 +36,9 @@ const { nombre, phone, email, address, city, region } = hospital;
               </li>
             </ul>
           </div>
-          <div class="pl-16 whitespace-nowrap text-gray-500 dark:text-gray-400 font-medium" >
+          <div
+            class="pl-16 whitespace-nowrap text-gray-500 dark:text-gray-400 font-medium"
+          >
             <ul>
               <li>&nbsp</li>
               <li>&nbsp</li>
@@ -53,7 +56,8 @@ const { nombre, phone, email, address, city, region } = hospital;
         class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
       />
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="m-auto text-lg text-gray-500 sm:text-center dark:text-gray-400"
+        <span
+          class="m-auto text-lg text-gray-500 sm:text-center dark:text-gray-400"
           >© 2024. {region}.
         </span>
       </div>
