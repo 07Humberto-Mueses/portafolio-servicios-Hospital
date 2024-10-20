@@ -2,6 +2,8 @@
 import Section from "../components/Section.astro";
 import { hospital } from "@data";
 const { nombre, phone, email, address, city, region } = hospital;
+import { Image } from "astro:assets";
+import HospitalLogo from "../assets/HospitalLogo.svg";
 ---
 
 <Section>
@@ -9,8 +11,8 @@ const { nombre, phone, email, address, city, region } = hospital;
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="m-4 flex md:mb-0">
-          <img
-            src="/public/assets/icons/HospitalLogo.svg"
+          <Image
+            src={HospitalLogo}
             class="flex self-center w-52 h-8 me-3"
             alt="Clinica"
           />

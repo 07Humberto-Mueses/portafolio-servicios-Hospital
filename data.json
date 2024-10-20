@@ -15,7 +15,8 @@
       "nombre": "Dr. Juan Pérez",
       "universidad": "Universidad Nacional Autónoma de México",
       "servicios": ["Electrocardiogramas", "Ecocardiogramas", "Holter"],
-      "fotos": "public/assets/images/cardio/avatar1.jpg"
+      "src": "/public/assets/images/avatar1.jpg",
+      "alt": "Avatar 1"
     },
     {
       "nombre": "Dr. Luisa Rodríguez",

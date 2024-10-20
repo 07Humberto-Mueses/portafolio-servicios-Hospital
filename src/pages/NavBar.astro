@@ -1,7 +1,11 @@
 ---
 import Section from "../components/Section.astro";
 import { Image } from "astro:assets";
-import img from "../assets/Bones.svg";
+import Bones from "../assets/Bones.svg";
+import Home from "../assets/Home.svg";
+import Heart from "../assets/Heart.svg";
+import Congrat from "../assets/Congrat.svg";
+import Pediatrics from "../assets/Pediatrics.svg";
 ---
 
 <Section>
@@ -14,7 +18,7 @@ import img from "../assets/Bones.svg";
         data-tooltip-target="tooltip-home"
         class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <img src="/public/assets/icons/Home.svg" alt="Inicio" />
+        <Image src={Home} alt="Inicio" />
         <div
           id="tooltip-home"
           role="tooltip"
@@ -29,7 +33,7 @@ import img from "../assets/Bones.svg";
         data-tooltip-target="tooltip-cardio"
         class="inline-flex flex-col items-center justify-center px-0 hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <img src="/public/assets/icons/Heart.svg" alt="Cardiologia" />
+        <Image src={Heart} alt="Cardiologia" />
         <div
           id="tooltip-cardio"
           role="tooltip"
@@ -44,7 +48,7 @@ import img from "../assets/Bones.svg";
         data-tooltip-target="tooltip-ortopedia"
         class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <Image src={img} alt="Ortopedia" />
+        <Image src={Bones} alt="Ortopedia" />
         <div
           id="tooltip-ortopedia"
           role="tooltip"
@@ -59,7 +63,7 @@ import img from "../assets/Bones.svg";
         data-tooltip-target="tooltip-pediatria"
         class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <img src="/public/assets/icons/Pediatrics.svg" alt="Pediatría" />
+        <Image src={Pediatrics} alt="Pediatría" />
         <div
           id="tooltip-pediatria"
           role="tooltip"
@@ -74,7 +78,7 @@ import img from "../assets/Bones.svg";
         data-tooltip-target="tooltip-felicita"
         class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-300 dark:hover:bg-gray-800 group"
       >
-        <img src="/public/assets/icons/Congrat.svg" alt="Congrats" />
+        <Image src={Congrat} alt="Congrats" />
         <div
           id="tooltip-felicita"
           role="tooltip"
