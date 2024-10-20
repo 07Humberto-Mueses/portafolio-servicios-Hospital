@@ -2,10 +2,13 @@
 import { testimonios } from "@data";
 import Section from "../components/Section.astro";
 import Layout from "@/layouts/Layout.astro";
+import NavBar from "./NavBar.astro";
+import Footer from "./Footer.astro";
 ---
 
 <Layout title="Testimonios">
   <Section>
+    <NavBar />
     <div class="container">
       {
         testimonios.map(({ paciente, testimonio }) => (
@@ -16,6 +19,7 @@ import Layout from "@/layouts/Layout.astro";
         ))
       }
     </div>
+    <Footer />
   </Section>
 </Layout>
 

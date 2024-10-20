@@ -5,22 +5,10 @@
     "mision": "Brindar atención médica integral y de calidad a todos nuestros pacientes, promoviendo la salud y el bienestar de la comunidad.",
     "vision": "Ser el hospital de referencia en la región, reconocido por la excelencia en sus servicios y la innovación en sus tratamientos.",
     "email": "comunitario@gmail.com",
-    "phone": "602 7332456",
+    "phone": "(602)7332456",
     "address": "Av. Los Fundadores",
     "city": "San Juan de Pasto",
-    "region": " Colombia",
-    "profiles": [
-      {
-        "network": "Instagram",
-        "username": "Hospital-Central",
-        "url": "https://insstagram.com"
-      },
-      {
-        "network": "Facebook",
-        "username": "Hospital-Central",
-        "url": "https://www.facebook.com"
-      }
-    ]
+    "region": " Colombia"
   },
   "cardiologia": [
     {
@@ -49,6 +37,33 @@
         "Valvulopatías",
         "Cardiopatías congénitas",
         "Rehabilitación cardíaca"
+      ]
+    },
+    {
+      "nombre": "Dr. Juan Pérez",
+      "universidad": "Universidad Nacional Autónoma de México",
+      "servicios": [
+        "Cirugía de rodilla",
+        "Tratamiento de fracturas",
+        "Rehabilitación física"
+      ]
+    },
+    {
+      "nombre": "Dra. María Rodríguez",
+      "universidad": "Universidad de Harvard",
+      "servicios": [
+        "Cirugía de hombro",
+        "Artroscopia",
+        "Tratamiento de lesiones deportivas"
+      ]
+    },
+    {
+      "nombre": "Dr. Carlos Gómez",
+      "universidad": "Universidad de Stanford",
+      "servicios": [
+        "Cirugía de columna",
+        "Tratamiento de osteoporosis",
+        "Prótesis articulares"
       ]
     }
   ],
